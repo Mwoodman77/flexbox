@@ -1,0 +1,157 @@
+
+
+.child {
+    background-color: blue;
+    justify-content: center;
+    height: 75px;
+    width: 75px;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+  
+    color: white;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* flex direction */
+.container-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+ .container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    
+ }
+ .container-3 {
+    display: flex;
+    flex-direction: column;
+ }
+ .container-4 {
+    display: flex;
+    flex-direction: column-reverse;
+ }
+ /* flex wrap */
+ .container-5 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;  
+ }
+ .container-6 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ }
+ .container-7 {
+   display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap-reverse;
+ }
+ .container-8 {
+   display: flex;
+   flex-flow: nowrap;
+ }
+
+ /* Flex Flow */
+ .container-9 {
+   display: flex;
+   flex-flow: column-reverse;
+ }
+.container-10 {
+   display: flex;
+   flex-flow: column wrap;
+}
+.container-11 {
+   display: flex;
+   flex-flow: row-reverse wrap-reverse;
+}
+
+/* Justify content*/
+.container-12 {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.container-13 {
+   display: flex;
+   justify-content: flex-end;
+}
+.container-14 {
+   display: flex;
+   justify-content: center;
+}
+.container-15 {
+   display: flex;
+   justify-content: space-between;
+}
+.container-16 {
+   display: flex;
+   justify-content: space-around;
+}
+.container-17 {
+   display: flex;
+   justify-content: space-evenly;
+}
+/* Align Content*/
+.container-18 {
+   display: inline-flex;
+   align-content: flex-start;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+   border: solid black 1px;
+}
+
+.container-19 {
+   display: flex;
+   align-content: flex-end;
+   flex-wrap: wrap;
+   height: 250px;
+}
+.container-19 .child {
+   width: 40%;
+}
+
+
+.container-20 {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   height: 250px ;
+   
+}
+.container-20 .child {
+   width: 40%;
+}
+
+.container-21 {
+   display: flex;
+   align-content: stretch;
+   flex-wrap: wrap;
+   height: 250px;
+   width:40%;
+}
+.container-22 {
+   display: flex;
+   align-content: space-between;
+   flex-wrap: wrap;
+   height: 250px;
+   width: 40%;
+}
+.container-23 {
+   
+   display: flex;
+   align-content: space-around;
+   flex-wrap: wrap;
+}
+.container-23 .child {
+   width: 40% ;
+}
+.container-24 {
+   display: flex;
+   align-content: space-evenly;
+   flex-wrap: wrap;
+}
